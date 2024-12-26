@@ -1,0 +1,40 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.1.2
+  font_awesome_flutter: ^10.8.0
+  http: ^1.2.0
+  dio: ^5.7.0
+  carousel_slider: ^5.0.0
+  image_picker: ^1.0.8
+  money_formatter: ^0.0.6
+  cached_network_image: ^3.3.1
+  dotted_border: ^2.1.0
+  file: ^7.0.1
+  google_nav_bar: ^5.0.7
+  salomon_bottom_bar: ^3.3.2
+  google_fonts: ^6.2.0
+  shared_preferences: ^2.2.3
+  firebase_core: ^2.27.0
+  firebase_auth_helper: ^2.2.4
+  flutter_staggered_grid_view: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
